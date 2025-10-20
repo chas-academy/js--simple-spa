@@ -1,0 +1,26 @@
+.header {
+  h1 {
+    font-size: clamp(3rem, 5.4vw, 4rem);
+    margin-bottom: 1rem;
+  }
+  color: white;
+
+  nav {
+    display: flex;
+    justify-content: center;
+    gap: 0.5rem;
+  }
+
+  a {
+    padding: 0.25rem 0.5rem;
+    color: white;
+    font-size: 1.5rem;
+    text-decoration: none;
+    border: 2px solid white;
+    border-radius: 0.5rem;
+
+    &:hover {
+      opacity: 0.6;
+    }
+  }
+}

@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
+@import "./views/style.css";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-family: "Outfit", sans-serif;
+}
+
+.app {
+  position: relative;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem;
+  border-image-source: linear-gradient(
+    45deg,
+    rgb(204, 175, 235, 0.97) 0%,
+    rgb(173, 190, 235, 0.97) 25%,
+    rgb(141, 196, 235, 0.97) 50%,
+    rgb(121, 191, 235, 0.97) 75%,
+    rgb(122, 177, 232, 0.97) 100%
+  );
+  border-image-slice: 1 fill;
+  background: url("https://plus.unsplash.com/premium_photo-1675802755792-a7cfd346b5be")
+    center/cover no-repeat;
+  color: white;
+}
+
+.background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 1;
+  pointer-events: none;
+  opacity: 0.03;
+}
