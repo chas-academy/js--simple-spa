@@ -14,6 +14,7 @@ I denna uppgift kommer ni att bygga en modulär webbapplikation bundlad med [Vit
 2 - Installera dependencies med `npm i` och kör `npm run dev` för att spinna upp en lokal devmiljö. Ofta får man frågan om man vill att detta ska göras automatiskt under installationsprocessen med Vite.
 
 - Kika på koden som redan finns skapad i `index.html` och `main.js` för att få en uppfattning om var allting renderas i slutändan. `main.js` borde hämta in alla dina moduler och rendera dem inuti `<div class="app" id="app"></div>`.
+- Om ni vill använda Live Share så måste den som servar projektet exponera hela sin IP-adress med `npm run dev -- --host` istället för bara `npm run dev`. Använd URL:en som innehåller hela IP-adressen istället för "`localhost`. Detta funkar bara om ni är anslutna till samma nätverk.
 
 3 - Skapa en mappstruktur inuti `/src` där statiska views, dynamiska views och components ligger separerade. Exempelvis:
 
