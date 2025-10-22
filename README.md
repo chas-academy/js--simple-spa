@@ -59,7 +59,6 @@ import contactHTML from "./views/static/contact/index.html?raw";
 // filer med det namnet laddas automatiskt
 import about from "./views/about";
 import footer from "./views/footer";
-import { setRenderCallback } from "./store";
 
 // en funktion för att rendera olika sidor baserat på webbläsarens "path"
 // för att ändra pathen kan du t.ex. skapa en anchor tag med href="/home"
